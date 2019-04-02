@@ -1,6 +1,6 @@
 local appmetrica = require "plugin.appmetrica"
 local notifications = require( "plugin.notifications.v2" )
-local appKey= "96aa03c5-2062-492a-aa96-391153d00ad3"
+local appKey= "insert here"
 appmetrica.init(appKey)
 local bg = display.newRect( display.contentCenterX, display.contentCenterY, display.actualContentWidth, display.actualContentHeight )
 bg:setFillColor( .5 )
